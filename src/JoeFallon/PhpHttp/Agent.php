@@ -243,8 +243,6 @@ class Agent
 
         }
 
-        //Debug::dump('$this->_agent', $this->_agent);
-
         if(!is_null($this->_agent))
         {
             $this->compileData();
@@ -280,7 +278,6 @@ class Agent
         }
 
         $this->_platform = 'Unknown Platform';
-        //Debug::dump('$this->_platform', $this->_platform);
         // TODO: Fix the missing return statement.
     }
 
@@ -385,14 +382,13 @@ class Agent
      *
      * @return boolean
      */
-    public function isRefferal()
+    public function isReferral()
     {
         if(!isset($_SERVER['HTTP_REFERER']) || $_SERVER['HTTP_REFERER'] == '')
         {
             return false;
         }
 
-        //        Debug::dump('$_SERVER', $_SERVER);
         return true;
     }
 
