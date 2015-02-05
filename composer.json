@@ -1,7 +1,7 @@
 {
     "name": "joefallon/phphttp",
     "type": "library",
-    "description": "phphttp",
+    "description": "Library of simple HTTP utilities.",
     "keywords": [ "PHP" ],
     "homepage": "https://github.com/joefallon/phphttp",
     "license": "MIT",
