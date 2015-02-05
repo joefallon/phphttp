@@ -33,8 +33,41 @@ There are four main classes contained in this library:
 
 ### Agent
 
+```
+isBrowser()
+isMobile()
+isRobot()
+isReferral()
+getBrowserName()
+getBrowserVersion()
+getMobileDeviceName()
+getRobotName()
+getPlatformName()
+getReferrer()
+getAgentString()
+getLanguages()
+getCharsets()
+acceptsLang($lang = 'en')
+acceptsCharset($charset = 'utf-8')
+```
+
 ### HttpCodes
+
+```
+getCodeMessage($code)
+```
 
 ### MimeType
 
+```
+getMimeTypeFromFileName($filename = '')
+getMimeTypeFromFileExtension($extension = '')
+```
+
 ### PageRedirect
+
+```
+getRedirectDestination()
+setRedirectDestination($destination)
+redirect()
+```
